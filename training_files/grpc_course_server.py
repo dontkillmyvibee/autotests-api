@@ -1,6 +1,5 @@
 import grpc
 from concurrent import futures
-import time
 
 import course_service_pb2
 import course_service_pb2_grpc
