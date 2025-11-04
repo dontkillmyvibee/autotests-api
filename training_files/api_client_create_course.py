@@ -25,7 +25,7 @@ courses_client = get_courses_client(authentication_user)
 create_file_request = CreateFileRequestDict(
     filename="images.png",
     directory="courses",
-    upload_file="./testdata/files/images.png"
+    upload_file="../testdata/files/images.png"
 )
 create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
@@ -40,4 +40,5 @@ create_course_request = CreateCourseRequestDict(
     createdByUserId=create_user_response['user']['id']
 )
 create_course_response = courses_client.create_course(create_course_request)
+
 print('Create course data:', create_course_response)
