@@ -7,6 +7,7 @@ from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema
+from tools.fakers import fake
 
 public_users_client = get_public_users_client()
 
@@ -25,10 +26,13 @@ create_file_request = CreateFileRequestSchema(upload_file="./testdata/files/imag
 create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
 
-create_course_request = CreateCourseRequestSchema()
+create_course_request = CreateCourseRequestSchema(
+    preview_file_id=create_file_response.file.id,
+    created_by_user_id=create_user_response.user.id
+)
 create_course_response = courses_client.create_course(create_course_request)
 print('Create course data:', create_course_response)
 
-create_exercise_request = CreateExerciseRequestSchema()
+create_exercise_request = CreateExerciseRequestSchema(course_id=create_course_response.course.id)
 create_exercise_response = exercises_client.create_exercise(create_exercise_request)
 print('Create exercise data:', create_exercise_response)
