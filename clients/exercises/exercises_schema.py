@@ -21,7 +21,7 @@ class ExerciseSchema(BaseModel):
 
 class GetExerciseResponseSchema(BaseModel):
     """
-    Описание структуры ответа на получение задания..
+    Описание структуры ответа на получение задания.
     """
     exercise: ExerciseSchema
 
@@ -32,7 +32,7 @@ class GetExercisesQuerySchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    exercise_id: str
+    course_id: str = Field(alias="courseId")
 
 
 class GetExercisesResponseSchema(BaseModel):
