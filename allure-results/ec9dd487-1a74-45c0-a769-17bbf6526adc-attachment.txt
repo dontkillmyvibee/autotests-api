@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE2OjEzOjEwLjg3MzI2NCIsInVzZXJfaWQiOiIzMTU3ZDJhMi02NDhjLTRmZjAtOTVhYy1kYmY1ZTk4YjE1MjEifQ.CbuqhJFRIceT7b-h2q96P_kPQ7NUQ66UvKdbvfds2R8' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Full style push for toward space beyond.","maxScore":66,"minScore":2,"description":"Father camera really material health night. Prevent require politics sport wife parent. Others they right laugh happy conference. Official cause would buy type.","estimatedTime":"1 weeks","previewFileId":"d9edd9a5-b8b2-44d8-bd91-27cd0b9f9c0d","createdByUserId":"3157d2a2-648c-4ff0-95ac-dbf5e98b1521"}'

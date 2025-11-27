@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE2OjEzOjExLjM2NTgzMiIsInVzZXJfaWQiOiI5YjgyNTNiOS1lMjZjLTRhNGEtYjQwNS0xNzA2NDA0OTMwOTYifQ.G7AeMzGiAj0gQIq_4oLaEioJ6HY-ovG1M3x8sVKBaj0' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Various likely figure deal pay stage kind age.","maxScore":96,"minScore":7,"description":"Four here take soldier. Already here woman those. Thousand development second national wait design.\nPolitical myself despite. Article heart side cup shoulder particularly campaign.","estimatedTime":"3 weeks","previewFileId":"355b5ddc-65cd-4267-aac1-16ab031be84a","createdByUserId":"9b8253b9-e26c-4a4a-b405-170640493096"}'

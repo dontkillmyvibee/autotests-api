@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE2OjEzOjA5LjQ4Njk2MiIsInVzZXJfaWQiOiIwZjNhNGUwMS0wNGFjLTRhYWQtOWQxNi04NjRiNzM0NmFhOWIifQ.zx3aKr0EmTdFJGlxa2RZKWEnkXqsFsssn0Ycp82Gw5w' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Offer of happy entire young.","maxScore":60,"minScore":8,"description":"Reality idea beat where beat history. Suffer child apply should energy. Church yes then stand compare.","estimatedTime":"10 weeks","previewFileId":"70fcd576-cb62-4aed-a4c2-ecd9b96debf7","createdByUserId":"0f3a4e01-04ac-4aad-9d16-864b7346aa9b"}'

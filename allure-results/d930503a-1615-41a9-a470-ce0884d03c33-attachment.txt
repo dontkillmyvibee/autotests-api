@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE2OjEzOjEyLjM0NTUxNiIsInVzZXJfaWQiOiIzOTRkNzE0ZS05ZjdhLTRmMmQtYTA0Ni1mYmFjYTg2Zjc0MzAifQ.VrX4PIVpdUZ3gcZ9skKZszpvqIbCWWXQHCFWW18-seI' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"International check spring at attention.","courseId":"e12098ca-d8ec-4ef5-b071-13e89434429f","maxScore":98,"minScore":27,"orderIndex":100,"description":"Course capital answer together. War forget feeling financial.\nNo almost southern direction decide raise. Dream medical white whatever stand.","estimatedTime":"1 weeks"}'

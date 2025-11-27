@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE2OjEzOjEyLjg2NjMwNSIsInVzZXJfaWQiOiJhMDQ0YzJkMS02Y2U1LTQ4YTAtOWU3Mi01MTNhOWIyYjBlNTQifQ.XT9kqX4Pbxq2gENPCeJ-ExJc80CEp9ixnQItvVEcuDo' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Often draw old agree.","maxScore":58,"minScore":27,"description":"Claim most news feeling sound. Good policy study.\nWorry family individual see gas them. Question network state key find. Fill hold skin how green support throughout.","estimatedTime":"3 weeks","previewFileId":"d75dcf51-b8ba-4e08-8761-0495037b597f","createdByUserId":"a044c2d1-6ce5-48a0-9e72-513a9b2b0e54"}'

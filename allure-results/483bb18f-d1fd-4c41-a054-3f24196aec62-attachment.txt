@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE2OjEzOjEwLjQwNDAzNiIsInVzZXJfaWQiOiJmOThmODlhMS01MDIwLTRlNWMtODg0MC1iMjY3ODljOTM3M2UifQ.hfVcgRhmU7XrOobiqcu9Kx5-DB1PxAg2VOvL98MTvyM' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Age rise prevent.","maxScore":99,"minScore":8,"description":"Son religious someone admit church hope. Beautiful rather until recent professional black body. Rather sing respond face.","estimatedTime":"8 weeks","previewFileId":"3d3d77b6-45c9-4786-ad51-4e18879744c7","createdByUserId":"f98f89a1-5020-4e5c-8840-b26789c9373e"}'
