@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDEyOjIzOjQ4LjY5NzUwNCIsInVzZXJfaWQiOiJkNzVlNTg2MS0zYjE2LTRhMTAtYmY0ZC1iNWFhZWZjZmViODIifQ.NALRGpPMkqzhJR1K_vPySKgYNozRJWbhrM9gIVFWWmo' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Send bill service speak something dog.","maxScore":93,"minScore":24,"description":"Evidence want shake bar ground leader official. Place course sort indeed always various. Community establish message deep last who. Friend take degree five.","estimatedTime":"4 weeks","previewFileId":"792f97d0-bc15-48e2-9484-f1ba680fd5da","createdByUserId":"d75e5861-3b16-4a10-bf4d-b5aaefcfeb82"}'
