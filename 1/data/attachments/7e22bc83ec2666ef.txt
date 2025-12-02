@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjI1OjE1LjAyNTE5NSIsInVzZXJfaWQiOiI1Y2U2MzliOC1lMGQzLTQ4ZDgtODI3OC0yZTViNTQwZDYwOGMifQ.5unP5hakIGJAYmI05eTntLnLLUNRYO05J0952S62xVk' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hit pick business federal rich maintain fall.","maxScore":62,"minScore":7,"description":"Food Democrat who could. Woman past seat end themselves room. Bring style discover deal city.\nGovernment no couple someone. House spring go.","estimatedTime":"9 weeks","previewFileId":"320be240-3793-43fc-bd93-0125c8d79fd1","createdByUserId":"5ce639b8-e0d3-48d8-8278-2e5b540d608c"}'

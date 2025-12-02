@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:79 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Hit pick business federal rich maintain fall.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 62
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Food Democrat who could. Woman past seat end themselves room. Bring style discover deal city.
+Government no couple someone. House spring go.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 320be240-3793-43fc-bd93-0125c8d79fd1
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to 5ce639b8-e0d3-48d8-8278-2e5b540d608c
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

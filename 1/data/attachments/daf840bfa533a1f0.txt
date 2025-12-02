@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjI1OjE1LjYwNzg3MiIsInVzZXJfaWQiOiI2OWE1NWNmYS1mNTAyLTQwOTgtYjU5Yy0zYTRjZWMxZDJmNGIifQ.hUDSu5OH_PpizoKTgXHNsNJT2w245YAsFnLViE43tKs' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Argue upon leader who.","maxScore":99,"minScore":3,"description":"Wall both say service media support stage. Process score age increase skin. Character field story central health painting big traditional.","estimatedTime":"6 weeks","previewFileId":"c301f68c-48cc-4202-93e5-8d1e25b3374d","createdByUserId":"69a55cfa-f502-4098-b59c-3a4cec1d2f4b"}'

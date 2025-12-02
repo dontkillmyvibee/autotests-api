@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjI1OjE2Ljc3NDYyOCIsInVzZXJfaWQiOiI2NzFhYTkyZi1iN2M5LTQxMTEtYThkYi02NWE2MzU2MjQzMGMifQ.kl6ezbBFV2zhR5rEdRbSSbBnyKEdEV5u8gwLaDPCpi0' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cover international record TV grow.","maxScore":62,"minScore":28,"description":"Democratic music special blood. Use assume dream hot ahead other.\nNews check seem Mr operation color throughout. Different admit west few middle.\nShow bed know media.","estimatedTime":"3 weeks","previewFileId":"74b85e22-82a2-4d60-b380-71974e45302d","createdByUserId":"671aa92f-b7c9-4111-a8db-65a63562430c"}'

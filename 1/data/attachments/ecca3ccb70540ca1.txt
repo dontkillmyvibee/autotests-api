@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/eceb97ee-e6b3-449d-8760-299ffeeda23d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjI1OjE1LjYwNzg3MiIsInVzZXJfaWQiOiI2OWE1NWNmYS1mNTAyLTQwOTgtYjU5Yy0zYTRjZWMxZDJmNGIifQ.hUDSu5OH_PpizoKTgXHNsNJT2w245YAsFnLViE43tKs' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Contain civil name forget take hospital strategy.","maxScore":90,"minScore":6,"description":"Hit far international suffer occur a listen. Compare loss special character.\nPart region style. Care rock size concern strategy turn. Bar true statement customer analysis no moment.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjI1OjE2LjE5NDgxOCIsInVzZXJfaWQiOiI4ODE0NWE5OS1jMzIxLTQ3ZWEtYjZlZC03NTY5MjNmNTRlZTcifQ.7puU1APETpRrdQOuM7xYy-44-CTNAMnvX4SrfyXxofo' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anything store last care indicate other Mr.","maxScore":62,"minScore":3,"description":"Suddenly time bag real plan. Food chair art campaign.\nThey piece board television soon life lead. Sit try people scientist. Organization moment almost wall.","estimatedTime":"10 weeks","previewFileId":"e1ac4c21-23a9-4b5f-933e-11cae6fc69b4","createdByUserId":"88145a99-c321-47ea-b6ed-756923f54ee7"}'

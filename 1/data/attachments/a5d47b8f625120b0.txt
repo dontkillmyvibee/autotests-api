@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjI1OjE4LjU3ODI2NiIsInVzZXJfaWQiOiI4MmRhZDM5OS0wYTAyLTQzMmMtYmU5NC05MmMyYTUzOTU5OGQifQ.7YRTzvyToe3xaK7WuFWeWhFQEOBwzuz9u76yFrLbVUs' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mean cause employee fly.","maxScore":89,"minScore":30,"description":"Good human commercial building nor fly heavy. Both word account offer financial program.\nNear hour him hit mention standard. Describe Congress wall talk pressure feel.","estimatedTime":"8 weeks","previewFileId":"868138e6-9250-40b6-9b2f-1e7227815d18","createdByUserId":"82dad399-0a02-432c-be94-92c2a539598d"}'

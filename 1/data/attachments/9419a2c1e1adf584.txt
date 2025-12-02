@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjI1OjE3Ljk5OTY1NyIsInVzZXJfaWQiOiJkYzI5NWM3ZC05Y2RhLTQxY2UtYWQ4My02YjAzZjZjNmY1YTIifQ.hS-J2Cin1VF0scTysJ3GvVvybtPRad9LVyJdV6QJLnQ' \
+  -H 'content-length: 251' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stuff begin its forget happy magazine.","courseId":"15d59295-75aa-4563-aa98-ae981d201b41","maxScore":83,"minScore":23,"orderIndex":12,"description":"Draw create visit least job agency. Young side actually thought.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/exercises/e92c4b10-defb-40dc-a081-ad45a8b7b813
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/e92c4b10-defb-40dc-a081-ad45a8b7b813
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:84 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Everyone degree radio water sign person surface.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 74
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 46
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Nearly religious budget. Toward option up quality get street. Trouble everyone paper buy beat.
+Send artist note poor order common certainly be.
+Tonight officer check operation eat leader must truth.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjI1OjE3Ljk5OTY1NyIsInVzZXJfaWQiOiJkYzI5NWM3ZC05Y2RhLTQxY2UtYWQ4My02YjAzZjZjNmY1YTIifQ.hS-J2Cin1VF0scTysJ3GvVvybtPRad9LVyJdV6QJLnQ' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cover person allow affect lay indeed protect.","maxScore":85,"minScore":23,"description":"Strong thank loss. Without trip goal word group. Contain fear something down send black.\nHome him sister first. Since threat church control picture.","estimatedTime":"1 weeks","previewFileId":"7f849746-586a-4e00-9afb-01a6c15fae76","createdByUserId":"dc295c7d-9cda-41ce-ad83-6b03f6c6f5a2"}'
