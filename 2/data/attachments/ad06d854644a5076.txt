@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjQwOjEzLjE1OTA5OCIsInVzZXJfaWQiOiI4NDJjZjBmMS1kMThhLTRiNGMtOWZiZS0xZDIyYzcxYjM3MzIifQ.fW4jl38n-kLwQjBZ6kqHPbA5waXiOS12Ygg0KzavGSc' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ask not forward American.","maxScore":99,"minScore":27,"description":"Different teach bag suggest.\nIts guess address media fall. Beautiful customer include wide after rather court.","estimatedTime":"1 weeks","previewFileId":"b4e83588-57be-4a29-9d49-2451bffe3d90","createdByUserId":"842cf0f1-d18a-4b4c-9fbe-1d22c71b3732"}'

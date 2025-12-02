@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjQwOjE0LjM3NDIwNSIsInVzZXJfaWQiOiIzN2IwYTA5YS04ZjcyLTQ4MjUtYjhmZC01ODIwOWM2NDlkMTEifQ.2nxV23244-bRXXWqK31up-2sa2csCBhzpu3hcnUfdus' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Significant building writer experience officer age decide agent.","courseId":"a283c94e-dcf4-459a-8b64-fb5bb2fcef6c","maxScore":89,"minScore":21,"orderIndex":2,"description":"Power necessary attorney claim moment. Turn lead mind few against teach. Reflect find claim.\nAct leg whom whose. Pressure away budget else begin. Physical trip employee feel drop.","estimatedTime":"9 weeks"}'

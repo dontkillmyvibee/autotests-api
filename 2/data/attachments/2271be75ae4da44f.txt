@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0737edeb-06e5-4934-a2de-f70a4a495440' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjQwOjEzLjE1OTA5OCIsInVzZXJfaWQiOiI4NDJjZjBmMS1kMThhLTRiNGMtOWZiZS0xZDIyYzcxYjM3MzIifQ.fW4jl38n-kLwQjBZ6kqHPbA5waXiOS12Ygg0KzavGSc' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mind recognize buy loss decide staff game explain.","maxScore":86,"minScore":30,"description":"Relationship become eight. Beat art discover decision choice child major build.\nMouth any station.\nTask same wide including trip program member. Attention popular couple later look.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjQwOjEzLjczOTM5MyIsInVzZXJfaWQiOiI4NDdiNDUzZi00ZGEyLTQwZGUtYjE0NC04ODA5OGE3OTMxYWEifQ.X5SY3BDF7X0VrHvxZY4_BW9bkQNVPumMANTcWmsRPeY' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Us you though often exactly loss ahead.","courseId":"de3c34c9-7448-40a4-a0f3-c5638b7adecc","maxScore":79,"minScore":25,"orderIndex":83,"description":"Face enjoy everybody human. Today determine worker near try.\nSometimes military behind build difficult. Respond training skill market. Institution point understand free.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/0737edeb-06e5-4934-a2de-f70a4a495440
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses/0737edeb-06e5-4934-a2de-f70a4a495440
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Mind recognize buy loss decide staff game explain.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 86
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Relationship become eight. Beat art discover decision choice child major build.
+Mouth any station.
+Task same wide including trip program member. Attention popular couple later look.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

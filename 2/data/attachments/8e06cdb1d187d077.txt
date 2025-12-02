@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjQwOjE0LjM3NDIwNSIsInVzZXJfaWQiOiIzN2IwYTA5YS04ZjcyLTQ4MjUtYjhmZC01ODIwOWM2NDlkMTEifQ.2nxV23244-bRXXWqK31up-2sa2csCBhzpu3hcnUfdus' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treatment financial year fast direction.","maxScore":65,"minScore":10,"description":"Officer run believe because radio grow explain. Dog instead his one. Natural fight woman them member science sport.","estimatedTime":"6 weeks","previewFileId":"776e12f1-c2e1-4cf4-a175-cc3fd7992ab8","createdByUserId":"37b0a09a-8f72-4825-b8fd-58209c649d11"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjQwOjEyLjU3ODgzMyIsInVzZXJfaWQiOiJmY2MyNDM4YS04ZGNmLTQ3ZTYtOGYwNi04MjI4MGU5ZTUxZmIifQ.k91lS9nvaHnzzpih1KUiNiD3jJhE0C9LCVCDc_1k7Zg' \
+  -H 'content-length: 441' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Senior cold group bag above result language significant.","maxScore":70,"minScore":16,"description":"Become religious treat technology computer it. There purpose weight media.\nAttorney mention fill. History writer security shoulder charge door question. Suffer natural rest data smile data.","estimatedTime":"6 weeks","previewFileId":"3972562d-8e94-4319-9e7e-cf5e6fa0eb21","createdByUserId":"fcc2438a-8dcf-47e6-8f06-82280e9e51fb"}'

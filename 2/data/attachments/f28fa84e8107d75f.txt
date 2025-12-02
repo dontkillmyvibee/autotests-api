@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjQwOjE2LjE2MjY0MiIsInVzZXJfaWQiOiJiZTg3MjhhMy1lNTQyLTQ3ZjgtOWY4ZC1hMDQ2OTg3Y2RlODEifQ.yufT-Y9k_TP304rPtcVX3TTfmPDFrN9jksqGcS8DPno' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Person why film travel need.","courseId":"6f02f31c-e871-47c7-a3ad-81e5fe55f340","maxScore":95,"minScore":28,"orderIndex":86,"description":"Certain company put low position subject quickly. Receive west bring positive despite decade. Become candidate father alone reflect hot exactly crime.","estimatedTime":"6 weeks"}'

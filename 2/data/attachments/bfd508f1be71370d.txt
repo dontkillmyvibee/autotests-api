@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjQwOjE0Ljk1MjQ5NiIsInVzZXJfaWQiOiI0MzFkNTE0Yi0wMmQ2LTRlODktOTBjNS0zOTk3OTA0NDZiOWEifQ.XEDlNzhkeV36iHPiBDdEhrJDMVXxe4Z3_GBPPRb5Jfw' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lose rich be child.","maxScore":65,"minScore":7,"description":"Hotel arm scene.\nWhether she manage decade. Option garden beyond fill. Also also feeling.\nWall garden fact want. Third field he hair manager rich.","estimatedTime":"2 weeks","previewFileId":"33abb96d-9762-4ef7-b0f0-77aecb22182b","createdByUserId":"431d514b-02d6-4e89-90c5-399790446b9a"}'
