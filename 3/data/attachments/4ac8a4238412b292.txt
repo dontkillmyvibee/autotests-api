@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjU3OjMwLjA1MTQ4NSIsInVzZXJfaWQiOiJjMDMyYzczYi03OWE0LTQzNzQtYWZhZi0xNjk5MzhhYjdlZDYifQ.FPczSQAMSJcr6uaNXepQcmqH3PjbfzK1V5u3xJ3Pfno' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Project key trial probably cold.","maxScore":76,"minScore":9,"description":"Professor whatever fish commercial black. Material front small arm drive.\nBenefit bring region. Purpose sport within hospital official investment.","estimatedTime":"5 weeks","previewFileId":"e9f3801a-f24f-465e-9266-763be8d433f6","createdByUserId":"c032c73b-79a4-4374-afaf-169938ab7ed6"}'

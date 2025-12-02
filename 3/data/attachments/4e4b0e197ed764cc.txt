@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjU3OjI3Ljk5NDU4MiIsInVzZXJfaWQiOiJkZWY1YjEwNy0wN2RmLTQ1MzktODkzNC1lZGViOTQxMzI0YmMifQ.9hlQB5-qcoPqJOcr360oYSA65a-AI6k7Y3Vq3yqeOdg' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pick must church national.","courseId":"0c12b1bf-4955-4cbd-8941-4d6fdcef4244","maxScore":78,"minScore":23,"orderIndex":43,"description":"Last will simply might attention.\nGet be necessary late. Single message former worry yeah parent town. Decade local own whatever soon he teach.","estimatedTime":"5 weeks"}'

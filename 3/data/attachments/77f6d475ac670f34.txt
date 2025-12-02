@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjU3OjI2LjE5NDMwNiIsInVzZXJfaWQiOiIyNzU4YjEzNC1mYTQxLTRiMTAtOGU0OS05ZmVmNWZlNjkyYmYifQ.lFqvy1qNZKxQtDU67-1q-gd9HGBlx12PY-25gaSNjPg' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Coach interesting try red nice white lawyer.","maxScore":66,"minScore":29,"description":"Prove chair available now hair. Receive true suffer between edge each remain. Eat moment mission serve own sort on.\nHot service seek break set fight. Truth office pretty outside table.","estimatedTime":"8 weeks","previewFileId":"6657268c-ea45-4ec4-ba13-74a3d27da259","createdByUserId":"2758b134-fa41-4b10-8e49-9fef5fe692bf"}'

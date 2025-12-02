@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjU3OjI5LjIzOTA4NiIsInVzZXJfaWQiOiIyMjFkZGNiOS0xZjlkLTRmNGItYmI4OS1lYTg5YWE4Nzk1MTMifQ.N3R5WPg5UWho5e-E21ElfXc3UUTlhnQ74TOZbIZp7Bs' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ever somebody charge anything.","maxScore":50,"minScore":16,"description":"Other kind product you gun.\nForm himself public voice significant system million. Collection industry adult by power return wish.","estimatedTime":"10 weeks","previewFileId":"ac0545dc-e63d-4fee-b403-9816baba6ae3","createdByUserId":"221ddcb9-1f9d-4f4b-bb89-ea89aa879513"}'

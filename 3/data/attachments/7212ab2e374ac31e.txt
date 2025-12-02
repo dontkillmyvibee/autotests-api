@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/exercises/6dab35b1-9803-47a8-93ba-9fdaf29683b7
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises/6dab35b1-9803-47a8-93ba-9fdaf29683b7
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:84 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Drive glass realize student television individual.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 53
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Future degree speech natural responsibility better occur weight. White movie local thousand child may.
+Message employee any simple rate. Trade a sport change factor degree star operation.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

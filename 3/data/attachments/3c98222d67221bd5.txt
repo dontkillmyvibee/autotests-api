@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjU3OjI2Ljc3OTI5MiIsInVzZXJfaWQiOiI1NjlkZTU4Zi03YWU3LTQ3ZDUtODdkNS0zMjk0OTcxNWQ1NmMifQ.Y7YEgHgndgnpgn1Sf-m75iNdRZSb2RzS0-N4XbLelfc' \
+  -H 'content-length: 445' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Street claim above each write maintain remain less.","maxScore":96,"minScore":7,"description":"Despite research nothing short.\nThan surface environmental dinner develop beat. Claim question serve agreement.\nMouth full seem explain around fish. Beautiful say dinner today walk protect film bit.","estimatedTime":"6 weeks","previewFileId":"0fcfed21-82db-4714-a2ec-8ec64b531a5d","createdByUserId":"569de58f-7ae7-47d5-87d5-32949715d56c"}'

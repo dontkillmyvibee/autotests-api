@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:79 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Coach interesting try red nice white lawyer.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 66
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Prove chair available now hair. Receive true suffer between edge each remain. Eat moment mission serve own sort on.
+Hot service seek break set fight. Truth office pretty outside table.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 6657268c-ea45-4ec4-ba13-74a3d27da259
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to 2758b134-fa41-4b10-8e49-9fef5fe692bf
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

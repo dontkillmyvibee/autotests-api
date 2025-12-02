@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjU3OjI4LjU4MDE3MyIsInVzZXJfaWQiOiI4YjBhYWYyZC1kYzBiLTRlYmEtYmU3NS05YTE0NGJkOWViODcifQ.07qlgt73BvZyQ5XXixw1uq5hYaUmbhwhDqSoSbnGgi8' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message develop will film safe majority per.","maxScore":89,"minScore":10,"description":"Page arm long his attorney need hand. Drive address majority moment instead family business would.\nHelp none nature consumer line.","estimatedTime":"8 weeks","previewFileId":"593f110a-075e-47d9-86b6-216bcf890087","createdByUserId":"8b0aaf2d-dc0b-4eba-be75-9a144bd9eb87"}'

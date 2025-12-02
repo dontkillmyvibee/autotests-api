@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjU3OjI1LjU5ODA2MyIsInVzZXJfaWQiOiJmNzJhNWVkMy04MThhLTRjYmUtYTlmYS05NzNhODk0ZjQxYzcifQ.rBnP6c1kyO7da8S2V5N_pwVoTGwAm0TG9XZKJwkQ8aw' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reflect husband traditional or here.","maxScore":94,"minScore":10,"description":"Detail success consider either. Fund into card but general side across surface.\nYear choice center avoid. People only data pretty least interest financial.","estimatedTime":"3 weeks","previewFileId":"85fb27fe-3e37-40bc-ae1f-1146185a9e6f","createdByUserId":"f72a5ed3-818a-4cbe-a9fa-973a894f41c7"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/6dab35b1-9803-47a8-93ba-9fdaf29683b7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjU3OjI3Ljk5NDU4MiIsInVzZXJfaWQiOiJkZWY1YjEwNy0wN2RmLTQ1MzktODkzNC1lZGViOTQxMzI0YmMifQ.9hlQB5-qcoPqJOcr360oYSA65a-AI6k7Y3Vq3yqeOdg' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive glass realize student television individual.","maxScore":88,"minScore":17,"orderIndex":53,"description":"Future degree speech natural responsibility better occur weight. White movie local thousand child may.\nMessage employee any simple rate. Trade a sport change factor degree star operation.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjU3OjI3LjM2NTM2MyIsInVzZXJfaWQiOiJmNzkzMTBmOC1iMmRkLTRkYTYtODdhMi0zN2FmNGI1ZjI0MzIifQ.dQf54pqTjmifn1HFtCDWLg3NAbtNg1yHuaJ0dQXaxiU' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Scientist most program determine section.","maxScore":51,"minScore":13,"description":"Image else charge present though know. Author question price.\nTry participant great take just push. Power international finally. Discussion meet somebody information. Leader lose central probably.","estimatedTime":"9 weeks","previewFileId":"a03f3d01-51a2-42aa-97e4-ab60202b3585","createdByUserId":"f79310f8-b2dd-4da6-87a2-37af4b5f2432"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/111a6405-cba1-41f2-95f7-b87df06ef7c5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEwOjU3OjI2Ljc3OTI5MiIsInVzZXJfaWQiOiI1NjlkZTU4Zi03YWU3LTQ3ZDUtODdkNS0zMjk0OTcxNWQ1NmMifQ.Y7YEgHgndgnpgn1Sf-m75iNdRZSb2RzS0-N4XbLelfc' \
+  -H 'content-length: 256' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Join station where.","maxScore":61,"minScore":1,"description":"Boy late billion official number during go very.\nArt subject list yet above raise. Policy top single. Necessary be lot nearly decade thought federal mean.","estimatedTime":"4 weeks"}'
